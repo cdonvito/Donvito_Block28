@@ -2,7 +2,6 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import Blue from "./components/Blue";
 import Red from "./components/Red";
 import Home from "./components/Home";
-import "./App.css";
 
 function App() {
   return (
@@ -15,9 +14,9 @@ function App() {
         </div>
         <div id="main-section">
           <Routes>
-            <Route path="/" element={Home} />
-            <Route path="/blue" element={Blue} />
-            <Route path="/red" element={Red} />
+            <Route path="/" element= {<Home />} />
+            <Route path="/blue" element={<Blue />} />
+            <Route path="/red" element={<Red />} />
           </Routes>
         </div>
       </div>
