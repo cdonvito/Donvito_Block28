@@ -36,7 +36,41 @@ body > div {
   color: white;
 }
 
-.Home {
-  background-color: rgb(162, 245, 137);
+.Green {
+  background-color: rgb(89, 255, 47);
   color: white;
+}
+
+.Home {
+  background-color: white;
+  color: black;
+}
+
+#Home {
+  color: black;
+  text-decoration: none;
+}
+
+#Blue {
+  color: rgb(6, 45, 242);
+  text-decoration: none;
+}
+
+#Red {
+  color: rgb(237, 6, 6);
+  text-decoration: none;
+}
+
+#Green {
+  color: rgb(111, 248, 6);
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color:rgb(154, 13, 241);
+  text-decoration: underline;
+}
+
+#Home a, #Blue a, #Red a, #Green a {
+  color: inherit;
 }
