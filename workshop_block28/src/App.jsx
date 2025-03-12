@@ -1,4 +1,4 @@
-import Maincontainer from "./components/MainContainer";
+import Maincontainer from "./components/Maincontainer";
 import Navbar from "./components/Navbar";
 
 function App() {
