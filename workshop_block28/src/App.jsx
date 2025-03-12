@@ -1,14 +1,23 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
+import Blue from "./components/Blue";
+import Red from "./components/Red";
+import Home from "./components/Home";
+import "./App.css";
 
 function App() {
   return (
     <>
       <div id="container">
-        <div id="navbar">{/* navigation here */}</div>
+        <div id="navbar">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/blue">Blue</NavLink>
+          <NavLink to="/red">Red</NavLink>
+        </div>
         <div id="main-section">
           <Routes>
-            <Route path="/blue" element={<h1>Blue</h1>} />
-            <Route path="/red" element={<h1>Red</h1>} />
+            <Route path="/" element={Home} />
+            <Route path="/blue" element={Blue} />
+            <Route path="/red" element={Red} />
           </Routes>
         </div>
       </div>

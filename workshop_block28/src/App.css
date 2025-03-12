@@ -27,11 +27,15 @@ body > div {
   align-items: center;
   justify-content: center;
 }
-.red {
+.Red {
   background-color: #b05f6d;
   color: white;
 }
-.blue {
+.Blue {
   background-color: #275db3;
   color: white;
+}
+
+.Home {
+  background-color: rgb(162, 245, 137);
 }
